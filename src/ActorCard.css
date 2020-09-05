@@ -1,0 +1,17 @@
+.actorCard{
+    margin: 10px;
+}
+.actorCard >img{
+    height: 120px;
+    width: 100px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.actorCard > h2{
+    padding-top: 10px;
+}
+
+.actorCard > p{
+    font-size: 10px;
+}

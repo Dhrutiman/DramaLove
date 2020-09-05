@@ -1,0 +1,54 @@
+.drama_link{
+    text-decoration: none;
+}
+.videoCard{
+    color: white;
+    width: 350px;
+    padding: 20px;
+    transition: transform 100ms;
+}
+
+.videoCard:hover{
+    transform: scale(1.09);
+}
+
+.videoCard >img{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.videoCard > h2{
+    padding-top: 10px;
+}
+
+.videoCard > h6{
+    display: none;    
+}
+
+.videoCard:hover > h6{
+    display: inline;
+}
+
+.display-genre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    list-style-type: none;    
+}
+.display-genre > li{
+    margin-right: 10px;
+    padding-top:10px ;
+}
+
+.videoCard >h2 >span{
+    margin-left: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+.videoCard:hover >h2 >span{
+    display: inline;
+}
